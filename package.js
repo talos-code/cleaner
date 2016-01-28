@@ -1,7 +1,6 @@
 Package.describe({
-  name: 'xolvio:cleaner',
+  name: 'talos:cleaner',
   version: '0.2.0',
-  debugOnly: true,
   summary: 'Gives you methods to clear your Mongo database and collections for testing purposes'
 });
 

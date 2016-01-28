@@ -1,5 +1,5 @@
 resetDatabase = function (options) {
-  if (process.env.NODE_ENV !== 'development') {
+  if (Meteor.settings.backdoor !== true) {
     throw new Error(
       'resetDatabase is not allowed outside of a development mode. ' +
       'Aborting.'
